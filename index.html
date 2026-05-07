@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uni Pro Agency</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+
+  <div class="bg-blur blur-1"></div>
+  <div class="bg-blur blur-2"></div>
+
+  <header class="header">
+    <div class="container header-top">
+      <a href="#top" class="logo">
+        <img src="./images/logo.png" class="logo-img" alt="Uni Pro Agency logo">
+        <span class="logo-text">
+          <span class="logo-title">Uni Pro Agency</span>
+          <span class="logo-subtitle">Creative Digital Agency</span>
+        </span>
+      </a>
+
+      <div class="header-tools">
+        <div class="lang-box">
+          <select id="languageSelect" class="lang-select" aria-label="Language selector">
+            <option value="ru">RU</option>
+            <option value="en">EN</option>
+            <option value="uz">UZ</option>
+          </select>
+        </div>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <nav class="mobile-nav">
+        <a href="#about" data-i18n="nav_about">О нас</a>
+        <a href="#portfolio" data-i18n="nav_portfolio">Портфолио</a>
+        <a href="#services" data-i18n="nav_services">Услуги</a>
+        <a href="#contact" data-i18n="nav_contact">Контакты</a>
+      </nav>
+    </div>
+
+    <div class="desktop-nav-wrap">
+      <div class="container desktop-nav">
+        <a href="#about" data-i18n="nav_about">О нас</a>
+        <a href="#portfolio" data-i18n="nav_portfolio">Портфолио</a>
+        <a href="#services" data-i18n="nav_services">Услуги</a>
+        <a href="#contact" data-i18n="nav_contact">Контакты</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <span class="hero-badge" data-i18n="hero_badge">Премиальное digital агентство</span>
+
+          <h1 data-i18n="hero_title">
+            Создаём сильные дизайны, Telegram-ботов и современные сайты
+          </h1>
+
+          <p class="hero-text" data-i18n="hero_text">
+            Uni Pro Agency помогает брендам и бизнесу выделяться через логотипы, 3D-дизайн, автоматизацию и современный premium web.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary" data-i18n="hero_btn_1">Посмотреть работы</a>
+            <a href="https://t.me/uniproagency" target="_blank" class="btn btn-secondary" data-i18n="hero_btn_2">Наш канал</a>
+          </div>
+
+          <div class="mini-cards">
+            <div class="mini-card">
+              <strong>Branding</strong>
+              <span data-i18n="hero_feature_1">Логотипы и фирменный стиль</span>
+            </div>
+            <div class="mini-card">
+              <strong>Automation</strong>
+              <span data-i18n="hero_feature_2">Telegram-боты и системы</span>
+            </div>
+            <div class="mini-card">
+              <strong>Web</strong>
+              <span data-i18n="hero_feature_3">Современные сайты</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="showcase-card">
+            <div class="showcase-top">
+              <div class="showcase-icon">
+                <img src="./images/logo.png" class="showcase-logo" alt="Uni Pro Agency logo">
+              </div>
+              <div>
+                <span class="showcase-mini" data-i18n="hero_card_badge">Uni Pro Agency</span>
+                <h3 data-i18n="hero_card_title">Creative. Premium. Smart.</h3>
+              </div>
+            </div>
+
+            <p data-i18n="hero_card_text">
+              Упаковываем идеи в сильный визуал и рабочие digital-решения для бизнеса.
+            </p>
+
+            <div class="showcase-stats">
+              <div class="showcase-stat">
+                <span>Logo</span>
+                <strong data-i18n="hero_stat_1">Brand identity</strong>
+              </div>
+              <div class="showcase-stat">
+                <span>3D</span>
+                <strong data-i18n="hero_stat_2">Visual design</strong>
+              </div>
+              <div class="showcase-stat">
+                <span>Bot</span>
+                <strong data-i18n="hero_stat_3">Automation</strong>
+              </div>
+              <div class="showcase-stat">
+                <span>Web</span>
+                <strong data-i18n="hero_stat_4">Modern UI</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="line-card">
+            <span class="line-dot"></span>
+            <span data-i18n="hero_small_text">Premium design system for modern business</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-badge" data-i18n="about_tag">О нас</span>
+          <h2 data-i18n="about_title">Digital-решения, которые выглядят дорого и работают эффективно</h2>
+          <p data-i18n="about_text">
+            Мы объединяем дизайн, автоматизацию и разработку, чтобы ваш бизнес получал не просто красивую картинку, а сильный результат.
+          </p>
+        </div>
+
+        <div class="info-grid">
+          <article class="info-card">
+            <div class="info-icon">✦</div>
+            <h3 data-i18n="about_card_1_title">Сильный визуал</h3>
+            <p data-i18n="about_card_1_text">Дизайн, который повышает доверие к бренду и выделяет вас среди конкурентов.</p>
+          </article>
+
+          <article class="info-card">
+            <div class="info-icon">⚡</div>
+            <h3 data-i18n="about_card_2_title">Умные системы</h3>
+            <p data-i18n="about_card_2_text">Telegram-боты и автоматизация, которые экономят время и упрощают процессы.</p>
+          </article>
+
+          <article class="info-card">
+            <div class="info-icon">▣</div>
+            <h3 data-i18n="about_card_3_title">Современный веб</h3>
+            <p data-i18n="about_card_3_text">Быстрые, адаптивные и стильные сайты с аккуратным premium-интерфейсом.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-badge" data-i18n="portfolio_tag">Портфолио</span>
+          <h2 data-i18n="portfolio_title">Некоторые из наших работ</h2>
+          <p data-i18n="portfolio_text">Примеры проектов в вебе, логотипах и 3D-визуале.</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="images/logo1.jpg" alt="Web Development">
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-type">Web</span>
+              <h3 data-i18n="portfolio_1_title">Веб-разработка</h3>
+              <p data-i18n="portfolio_1_text">Современный и адаптивный сайт для бизнеса.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="images/logo2.jpg" alt="Logo Design">
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-type">Branding</span>
+              <h3 data-i18n="portfolio_2_title">Дизайн логотипов</h3>
+              <p data-i18n="portfolio_2_text">Фирменный стиль в чистом и премиальном оформлении.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="images/logo3.jpg" alt="Logo Design">
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-type">Identity</span>
+              <h3 data-i18n="portfolio_3_title">Дизайн логотипов</h3>
+              <p data-i18n="portfolio_3_text">Креативные логотипы для уникальных брендов.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="portfolio-image portfolio-double">
+              <div class="double-box">
+                <img src="images/logo4.jpg" alt="3D Design 1">
+              </div>
+              <div class="double-box">
+                <img src="images/logo41.jpg" alt="3D Design 2">
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-type">3D</span>
+              <h3 data-i18n="portfolio_4_title">3D дизайн</h3>
+              <p data-i18n="portfolio_4_text">Стильные и детализированные 3D-визуалы.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-badge" data-i18n="services_tag">Услуги</span>
+          <h2 data-i18n="services_title">Что мы делаем лучше всего</h2>
+          <p data-i18n="services_text">Выберите нужное направление и переходите в Telegram-бот.</p>
+        </div>
+
+        <div class="services-grid">
+          <a href="https://t.me/uniproagency_bot?start=ref_7203210832" target="_blank" class="service-card">
+            <div class="service-top">
+              <div class="service-icon">✦</div>
+              <span class="service-chip">Branding</span>
+            </div>
+            <h3 data-i18n="service_1_title">Дизайн логотипов</h3>
+            <p data-i18n="service_1_text">Современные, запоминающиеся и профессиональные логотипы для вашего бренда.</p>
+            <span class="service-link" data-i18n="order_now">Заказать</span>
+          </a>
+
+          <a href="https://t.me/uniproagency_bot?start=ref_7203210832" target="_blank" class="service-card">
+            <div class="service-top">
+              <div class="service-icon">◈</div>
+              <span class="service-chip">3D Visual</span>
+            </div>
+            <h3 data-i18n="service_2_title">3D дизайн</h3>
+            <p data-i18n="service_2_text">Креативные 3D-визуалы и premium презентации.</p>
+            <span class="service-link" data-i18n="order_now">Заказать</span>
+          </a>
+
+          <a href="https://t.me/uniproagency_bot?start=ref_7203210832" target="_blank" class="service-card">
+            <div class="service-top">
+              <div class="service-icon">⚡</div>
+              <span class="service-chip">Automation</span>
+            </div>
+            <h3 data-i18n="service_3_title">Telegram-боты</h3>
+            <p data-i18n="service_3_text">Автоматизация, бизнес-инструменты и умные Telegram-системы.</p>
+            <span class="service-link" data-i18n="order_now">Заказать</span>
+          </a>
+
+          <a href="https://t.me/uniproagency_bot?start=ref_7203210832" target="_blank" class="service-card">
+            <div class="service-top">
+              <div class="service-icon">▣</div>
+              <span class="service-chip">Web</span>
+            </div>
+            <h3 data-i18n="service_4_title">Веб-разработка</h3>
+            <p data-i18n="service_4_text">Быстрые, современные и стильные сайты с аккуратным интерфейсом.</p>
+            <span class="service-link" data-i18n="order_now">Заказать</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <span class="section-badge" data-i18n="contact_tag">Контакты</span>
+          <h2 data-i18n="contact_title">Готовы работать с нами?</h2>
+          <p data-i18n="contact_text">
+            Напишите нам в Telegram или подпишитесь на канал, чтобы видеть больше наших работ и обновлений.
+          </p>
+
+          <div class="contact-buttons">
+            <a href="https://t.me/upagencyadmin" target="_blank" class="btn btn-primary" data-i18n="contact_btn_1">Написать в Telegram</a>
+            <a href="https://t.me/uniproagency" target="_blank" class="btn btn-secondary" data-i18n="contact_btn_2">Наш канал</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
